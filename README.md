@@ -4,7 +4,7 @@
 
 Welcome to your first lab! Please read this entire readme. We'll try to only include information to help you. This way, we won't waste your time and will allow you to get to the coding as fast as possible.
 
-We are going to continue with our search engine that pulls identifying information from Wikipedia. As you remember, Aardvark created a search engine such that when a user asked a question, the program would look to Wikipedia to pull related information about the question topic.
+We are going to continue with our search engine that pulls identifying information from Wikipedia. As you remember, Aardvark created a search engine such that when a user asked a question, the program would look to Wikipedia to pull related information about the question topic
 
 
 ### Your task
@@ -22,9 +22,9 @@ Go ahead and select the JavaScript tab and you'll see some JavaScript code
 
 ```javascript
 //Enter querySelector Code here
-var header = "ENTER HEADER CODE HERE"
-var linkText = "ENTER LINK TEXT CODE HERE"
-var linkHref = "ENTER LINK HREF CODE HERE"
+var header = document.querySelector("#header").innerhtml
+var linkText = document.querySelector("a").text
+var linkHref = document.querySelector("a")
 
 
 // NO NEED TO MODIFY BELOW HERE
